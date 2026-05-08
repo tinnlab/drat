@@ -48,9 +48,10 @@ Each release builds for:
 | OS | Architecture | R versions |
 |---|---|---|
 | Linux | x86_64 | 4.2, 4.3, 4.4, 4.5, 4.6 |
-| macOS Intel | x86_64 | 4.2, 4.3, 4.4, 4.5, 4.6 |
 | macOS Apple Silicon | arm64 | 4.3, 4.4, 4.5, 4.6 |
 | Windows | x86_64 | 4.2, 4.3, 4.4, 4.5, 4.6 |
+
+> Note: macOS Intel (x86_64) binaries are not provided. Intel-Mac users will need to build from source — contact the author for the source tarball.
 
 ## Contact
 
