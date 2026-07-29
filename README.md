@@ -9,7 +9,7 @@ This is a [drat](https://github.com/eddelbuettel/drat) archive served via GitHub
 
 | Package | Description |
 |---|---|
-| **PRESS** | Perturbation-Resampled Enrichment with Semantic Smoothing — gene set enrichment analysis with a C++ core |
+| **PRESS** | Perturbation-Resampled Enrichment with Semantic Smoothing |
 
 ## Install
 
