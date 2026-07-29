@@ -29,19 +29,24 @@ R will pick the right binary for your platform and R version automatically.
 
 R does not auto-install binary packages on Linux. Install directly from URL.
 
-**Example: PRESS 1.0.0 on R 4.6**
+**Example: PRESS 0.9.0 on R 4.6**
 
 ```r
 download.file(
-  "https://tinnlab.github.io/drat/bin/linux/contrib/4.6/PRESS_1.0.0_R_x86_64-pc-linux-gnu.tar.gz",
+  "https://tinnlab.github.io/drat/bin/linux/contrib/4.6/PRESS_0.9.0_R_x86_64-pc-linux-gnu.tar.gz",
   "/tmp/PRESS.tar.gz")
-install.packages("/tmp/PRESS.tar.gz", repos = NULL, type = "binary")
+install.packages("/tmp/PRESS.tar.gz", repos = NULL)
 
 library(PRESS)
 ?PRESS
 ```
 
-For other R versions, swap `4.6` in the URL for your major.minor (`4.2`, `4.3`, `4.4`, or `4.5`). For other PRESS versions, swap `1.0.0` for the version you want. Run `getRversion()` if you're not sure which R you have.
+Note there is no `type = "binary"`: R rejects that argument on Linux
+("type 'binary' is not supported on this platform"). Omit it. The tarball
+contains no `src/`, so R installs the pre-compiled files as they are rather than
+trying to build anything.
+
+For other R versions, swap `4.6` in the URL for your major.minor (`4.2`, `4.3`, `4.4`, or `4.5`). For other PRESS versions, swap `0.9.0` for the version you want. Run `getRversion()` if you're not sure which R you have.
 
 ## Supported platforms
 
