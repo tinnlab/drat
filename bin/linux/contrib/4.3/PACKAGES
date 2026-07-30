@@ -4,5 +4,5 @@ Depends: R (>= 4.2)
 Imports: Rcpp, stats
 LinkingTo: Rcpp, RcppEigen
 License: file LICENSE
-MD5sum: 6d79e61eb05aec16766f67e25121065f
+MD5sum: 49673e1ac844e467e356400d443706c6
 NeedsCompilation: no
