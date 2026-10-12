@@ -1,9 +1,7 @@
 Package: PRESS
-Version: 0.9.0
+Version: 1.0.0
 Depends: R (>= 4.2)
-Imports: Rcpp, stats
-LinkingTo: Rcpp, RcppEigen
 License: file LICENSE
-MD5sum: af376d7418762d217d21e7190cfc3065
-Built: R 4.4.3; aarch64-apple-darwin20; 2026-07-30 00:52:54 UTC; unix
-File: PRESS_0.9.0.tgz
+MD5sum: 5c9bc881e9fcd2f70db1a4dfdd793a68
+Built: R 4.4.3; aarch64-apple-darwin20; 2026-10-12 14:03:07 UTC; unix
+File: PRESS_1.0.0.tgz

@@ -1,8 +1,6 @@
 Package: PRESS
-Version: 0.9.0
+Version: 1.0.0
 Depends: R (>= 4.2)
-Imports: Rcpp, stats
-LinkingTo: Rcpp, RcppEigen
 License: file LICENSE
-MD5sum: c15a2017747846c2f4d30962cf98da3c
+MD5sum: ea0b7b1bbff5e74188e28100152454d6
 NeedsCompilation: no
